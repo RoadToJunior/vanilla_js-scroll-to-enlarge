@@ -11,7 +11,7 @@ square.style.height = size + "px";
 document.addEventListener("scroll", function () {
   if (size >= window.innerWidth / 2) {
     grow = !grow;
-  } else if (size === 0) {
+  } else if (size <= 0) {
     grow = !grow;
   }
 
